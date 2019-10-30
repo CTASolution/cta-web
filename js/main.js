@@ -28,7 +28,7 @@ $(document).ready(function () {
         }
     });
 
-    emailjs.init("user_j2Jyz9OGeGOA3eezcUCiP");
+    emailjs.init("user_6BulrGpGKwVauHDOPE5H9");
 
     $('#form-main').on('submit', function(event) {
         event.preventDefault(); // prevent reload
@@ -102,8 +102,8 @@ function sendMail(firstName, lastName, phone, email, message, btnSendMail, popup
         "message_html": `<p>Phone: ${phone.val()}</p><p>Email: ${email.val()}</p><p>Message: ${message.val()}</p>`
     };
 
-    var service_id = "nhokkuteo1996_gmail_com";
-    var template_id = "template_8ZRfOlaD";
+    var service_id = "ctasolyolo_gmail_com";
+    var template_id = "template_nIw2M2ob";
 
     if (!firstName.val()) {
         firstName.addClass('input-error');
